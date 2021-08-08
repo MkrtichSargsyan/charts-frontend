@@ -34,10 +34,10 @@ function Graph() {
     fetchData();
   }, []);
 
-  console.log(data);
   return (
     data && (
       <LineChart
+        className="chart"
         width={1200}
         height={500}
         data={data}

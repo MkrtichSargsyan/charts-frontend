@@ -3,8 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-.title{
-  
+
+body {
+  background: rgb(233 255 255 / 82%);
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .app {
@@ -13,6 +19,6 @@
   align-items: center;
 }
 
-.chart{
-  border: 1px solid black;
+.chart {
+  /* background: wheat; */
 }
