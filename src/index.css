@@ -19,6 +19,13 @@ body {
   align-items: center;
 }
 
-.chart {
-  /* background: wheat; */
+.pieChart{
+  width: 200px;
+  border: 1px solid black;
+}
+
+.flex{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
 }
